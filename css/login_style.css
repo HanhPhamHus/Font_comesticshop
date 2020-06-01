@@ -1,0 +1,64 @@
+.section-login,.section-register{
+    /* overflow: hidden; */
+    /* width: 100%;*/
+    min-height: 700px;
+    background: url(../images/b2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: #FFF;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+.form-background{
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    color: white
+   
+}
+.form-background >h3{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.form-item{
+    margin-bottom: 15px;
+}
+.form-group a{
+    color: #537b35;
+}
+.form-control{
+    background-color: transparent;
+    border: 1px solid #537b35;
+}
+input[type="date"].form-control{
+    line-height: 15px;
+}
+.reset-password{
+    text-align: right;
+}
+.btn-login{
+    padding: 12px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #537b35;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    display: table;
+    cursor: pointer;
+    margin: 15px auto 31px;
+}
+.user-register{
+    text-align: center;
+}
+.avatar-upload{
+    margin-top: 10px
+}
