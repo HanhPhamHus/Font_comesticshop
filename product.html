@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login_style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--core js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/menubar.js"></script>
+</head>
+<body>
+<section id="header" class="header">
+    <div class="container-fluid" id="logo">
+        <img class="img-responsive" style="width:300px; height: 80px;" src="images/twitter_header_photo_1.png" alt="Chania"> 
+    </div>
+    <nav id="bar" class="navbar navbar-default nav-color ">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!-- nút bấm lên bấm xuống -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+                </button>
+                <!-- logo -->
+                <a class="navbar-brand" href="index.html">
+                    Bee Comestic
+                </a>
+            </div>
+        <!-- thanh menu -->
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class=""><a href="index.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Event <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Clip review</a></li>
+                        <li><a href="#">Brand</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="header-navigate">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <ul class="breadcrumb">
+                        <li><a href="">Trang chủ</a></li>
+                        <li><a href="">Trang điểm - Makeup</a></li>
+                        <li class="active"><span>Dầu dưỡng tóc HAIR</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="body" class="container">
+    <div class="row">
+        <div class="col-lg-7 col-md-5 col-sm-12 product-information">
+            <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                    
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="images/product/3ce-velvet-lip-tint_grande.jpg" class="img-responsive" alt="...">
+                            <div class="carousel-caption"></div>
+                        </div>
+                        <div class="item">
+                            <img src="images/product/a85f1a329b293657aa7de11b45038769.jpg" class="img-responsive" alt="...">
+                            <div class="carousel-caption"></div>
+                        </div>
+                        <div class="item">
+                            <img  class="img-responsive" src="images/product/af306a615a44c72fd3ecab1e5c6d88e6.jpg" alt="...">
+                            <div class="carousel-caption"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
+            </div>
+        </div>
+        <div class="col-lg-5 col-md-7 col-sm-12 col-xs-12 information-product">
+            <div class="row title_product">
+                <h3 class="title_product-name">
+                    3CE Lipstick - the best lipstick for you !!!
+                </h3>
+            </div>
+            <div class="row info_sort">
+                <div class="home-product-item__action">
+                    <div class="home-product-item__ratting">
+                        <i class="home-product-item__star-gold fa fa-star"></i>
+                        <i class="home-product-item__star-gold fa fa-star"></i>
+                        <i class="home-product-item__star-gold fa fa-star"></i>
+                        <i class="home-product-item__star-gold fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+
+                    <span class="home-product-item__sold">88 đã bán</span>
+                </div>
+            </div>
+
+            <div class="product_cost">
+                <span class="product_cost-in">120.000 VND</span>
+            </div>
+
+            <div class="row product_type">
+                <div class="product_type-item">
+                    <lable class="product_type-item-in">
+                        Màu sắc
+                    </lable>
+
+                    <div class="product_type-item-list">
+                        <button class="product_type-item-pro">Holling Hood</button>
+                        <button class="product_type-item-pro">Summer Holiday</button>
+
+                        <button class="product_type-item-pro">Winter Snow</button>
+                        <button class="product_type-item-pro">Spring Min</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row product_type">
+                <lable class="product_type-item-in">
+                    Số lượng
+                </lable>
+                <div class="product_type-quantity">
+                    <div class=" product_type-quantity-in">
+                        <button class="btn-quan product_quan-increase">
+                            <svg class="btn-quan-svg-icon " enable-background="new 0 0 10 10" viewBox="0 0 10 10" x="0" y="0"><polygon points="4.5 4.5 3.5 4.5 0 4.5 0 5.5 3.5 5.5 4.5 5.5 10 5.5 10 4.5"></polygon></svg>
+                        </button>
+                        <input type="text" class="product_quan-in" value="1">
+                        <button class="btn-quan product_quan-decrease">
+                            <svg class="btn-quan-svg-icon icon-plus-sign" enable-background="new 0 0 10 10" viewBox="0 0 10 10" x="0" y="0"><polygon points="10 4.5 5.5 4.5 5.5 0 4.5 0 4.5 4.5 0 4.5 0 5.5 4.5 5.5 4.5 10 5.5 10 5.5 5.5 10 5.5"></polygon></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row product_type">
+                <button type="button" class="btn_product btn_add">
+                    <i class="fa fas"></i>
+                    <span>Thêm vào giỏ hàng</span>
+                </button>
+                <button type="button" class="btn_product btn_buy">
+                    <span>Mua ngay</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="footer" class="container-fluid">
+    <div class=" container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 footer-item">
+                <div>
+                    <i class="fa fa-car fa-lg" aria-hidden="true"></i>
+                    <h4>Vận chuyển online</h4>
+                </div>
+                <span>Nhận hàng nhanh chóng</span><br>
+                <span>Lựa chọn giao hàng thường và siêu tốc</span><br>
+                <span>Nhận hàng từ 1-3 ngày</span>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 footer-item">
+                <div>
+                    <i class="fa fa-cog fa-lg" aria-hidden="true"></i>
+                    <h4>Thanh toán an toàn</h4>
+                </div>
+                <span>Phương thức COD</span><br>
+                <span>Thanh toán khi nhận</span><br>
+                <span>Giao hàng siêu tốc</span>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 footer-item">
+                <div>
+                    <i class="fa fa-phone fa-lg" aria-hidden="true"></i>
+                    <h4>Đặt hàng trực tuyến</h4>
+                </div>
+                <span>SDT:0351497812</span><br>
+                <span>Mua hàng trên Website</span><br>
+                <span>Tư vấn trực tiếp qua fanpage</span>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 footer-item">
+                <div>
+                    <i class="fa fa-snowflake-o fa-lg" aria-hidden="true"></i>
+                    <h4>Hot line</h4>
+                </div>
+                <span>Hỗ trợ trực tuyến </span><br>
+                <h4>0837164294</h4>
+                
+            </div>
+        </div>
+    </div>
+    <div class="row back-footer">
+        <p>© Bản quyền thuộc về 
+            <a href="#" target="_blank">PhamPham</a>
+            . Cung cấp bởi
+            <a href="#" target="_blank">PhamPham</a>.</p>
+    </div>
+</section>
+</body>
+</html>
